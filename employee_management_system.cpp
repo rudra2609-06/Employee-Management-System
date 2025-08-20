@@ -170,6 +170,8 @@ int main()
 				{
 					for (int i = 0; i < size; i++)
 					{
+						cout << endl
+							 << "-------Enter Employee " << i + 1 << " details-------" << endl;
 						cout << "Enter Employee id: ";
 						cin >> emp_id;
 						cout << "Enter Employee name: ";
@@ -181,6 +183,7 @@ int main()
 						cin >> emp_salary;
 						cout << "Enter Employee Worked Hours: ";
 						cin >> emp_bonus;
+						cout << endl;
 
 						emp[count] = new FullTimeEmployee();
 						emp[count]->setEmployee(emp_id, emp_name, emp_age, emp_salary);
