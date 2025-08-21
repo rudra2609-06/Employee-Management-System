@@ -113,7 +113,4 @@ README.md                      # Documentation
 
 This project is licensed under the MIT License.
 
-```
-
----
  
