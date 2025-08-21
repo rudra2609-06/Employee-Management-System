@@ -185,7 +185,7 @@ int main()
 						cin >> emp_bonus;
 						cout << endl;
 
-						emp[count] = new FullTimeEmployee();
+						emp[count] = new PartTimeEmployee;
 						emp[count]->setEmployee(emp_id, emp_name, emp_age, emp_salary);
 						((PartTimeEmployee *)emp[count])->setHoursWorked(emp_hours_worked);
 						count++;
